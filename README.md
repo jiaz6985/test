@@ -25,3 +25,130 @@
     ground-glass opacity (GGO) and consolidation, respectively. The images are collected from [1].
     </em>
 </p>
+
+> [1] ****数据集名称*** segmentation dataset, link: https://***********/, accessed: 2024-06-16.
+
+## 2. Proposed Methods
+
+- **Preview:**
+  
+  概述
+
+- **Dataset Preparation:**
+
+    Firstly, you should download the testing/training set  [**数据集链接**](**路径**), 
+    and put it into `./Dataset/` repository.
+  
+- **Download the Pretrained Model:**
+  
+    **模型名** Pre-trained Models used in our paper (
+    [**模型**](**路径**)
+    ), 
+    and put them into `./所在路径/` repository.
+
+- **Configuring your environment (Prerequisites):**
+    
+    + Creating a virtual environment in terminal: `conda create -n name python=3.9`.
+    
+    + Installing necessary packages: `pip install -r requirements.txt`.
+
+### 2.1. Overview
+
+
+
+
+
+
+### 2.2. Usage
+
+1. Train
+
+    - In order to run the program, you need to modify some variables in [main.py](https://scripts/main.py "main.py")
+    
+      cfg['DATA']["data_dir_target"] = input_target_path       #eg."E:/code/data/axis_11"
+  
+2. Test
+    
+    - When training is completed, the weights will be saved in `./权重文件路径/`. 
+    You can also directly download the pre-trained weights from [权重文件](https://).
+
+    - In order to run the program, you need to modify some variables in [inference.py](https://scripts/inference.py "inference.py")
+
+          data_dir_target = input_path 		                        #eg."E:/code/data/axis_11"     
+    
+          ckpt_path = model_path 		                                #eg."E:/models/axis_11/model-020000.ckpt"
+    
+          pred_dir = output_path		                                #eg."E:/scripts/pred_dir"
+    
+    - All the predictions will be saved in `./分割结果路径`
+   
+  ## 3. GUI
+  
+  ### 3.1. Introduction
+
+  The system is divided into four main sections: classification assessment, image segmentation, precise calculation and color change. 
+
+  ### 3.2. Usage
+
+- just run `segmentation_gui.py`.
+
+- The interface is shown below.
+  
+<p align="center">
+    <img src="Classify.png"/> <br />
+    <em> 
+    Figure 1. Mitochondrial Health Assessment Interface.
+    </em>
+</p>
+
+<p align="center">
+    <img src="Segmentation.png"/> <br />
+    <em> 
+    Figure 2. Segmentation of 2D Images Interface.
+    </em>
+</p>
+
+<p align="center">
+    <img src="Calculation.png"/> <br />
+    <em> 
+    Figure 3. Membrane Structure Calculation Interface.
+    </em>
+</p>
+
+<p align="center">
+    <img src="Color.png"/> <br />
+    <em> 
+    Figure 4. Change Color Interface.
+    </em>
+</p>
+
+- For detailed GUI guidelines, please refer to the user manual [用户使用手册](https://scripts/inference.py "inference.py")
+
+## 4. Dataset
+
+### 4.1. Training set
+
+The training set consists of mitochondrial cells from myocardial tissue in two regions of one patient.
+
+> - 100 original images sized 800x800 pixels and their corresponding label images.[link](https://)
+> - 100 original images sized 800x800 pixels and their corresponding label images.[link](https://)
+
+### 4.2. Testing set
+
+> - 40 original images sized 800x800 pixels and their corresponding label images.[link](https://)
+
+## 5. Results
+
+### 5.1. Download link:
+
+- Segmentation results can be downloaded from this [link](https://)
+
+
+
+
+  
+  
+  
+
+
+
