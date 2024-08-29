@@ -30,11 +30,11 @@ pip install -r requirements.txt
 
 ## <a name="segmentation"></a>ℹ️:Segmentation Dataset
 
-| Dataset Name | |  | Quark Cloud Disk |  |
-| :---------: | :----------: | :----------: | :----------: | :----------: |
-| patient1 | IRControlNet trained on filtered laion2b-en  | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
-| patient2 | IRControlNet trained on ImageNet-1k | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
-| patient3 | IRControlNet trained on FFHQ | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
+| Dataset Name | Quark Cloud Disk |  |
+| :---------: | :----------: | :----------: |
+| patient1 | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
+| patient2 | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
+| patient3 | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
 
