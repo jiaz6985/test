@@ -3,11 +3,30 @@
 > **Authors:**
 > [Xinsheng Wang](https://).
 
-## 0. Preface
+## :book:Table Of Contents
 
-- This repository provides code for "_**name: name**_" .
-- If you have any questions about our paper, feel free to contact us. And if you are using (数据集名) Dataset, 
-(*项目名) for your research, please cite this paper ([BibTeX](#8-citation)).
+- [Update](#update)
+- [Installation](#installation)
+- [Pretrained Models](#pretrained_models)
+- [Inference](#inference)
+- [Train](#train)
+
+## <a name="update"></a>:new:Update
+
+- **2024.08.30**: This repo is released.
+
+## <a name="installation"></a>:gear:Installation
+
+```shell
+# clone this repo
+git clone https://github.com/XPixelGroup/DiffBIR.git
+cd DiffBIR
+
+# create environment
+conda create -n diffbir python=3.10
+conda activate diffbir
+pip install -r requirements.txt
+```
 
 ### 0.1. :fire: NEWS :fire:
 - [2024/06/16] Create repository.
