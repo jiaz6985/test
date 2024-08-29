@@ -30,66 +30,25 @@ pip install -r requirements.txt
 
 ## <a name="segmentation"></a>ℹ️:Segmentation Dataset
 
-| Dataset Name | Quark Cloud Disk |  |
-| :---------: | :----------: | :----------: |
-| patient1 | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
-| patient2 | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
-| patient3 | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
+| Dataset Name | Quark Cloud Disk |
+| :---------: | :----------: |
+| patient1_train | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
+| patient2_train | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
+| patient3_train | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
+| patient1_test | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
+| patient2_test | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
+| patient3_test | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
+| patient1_label | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
 
-| Model Name | Description |  | Quark Cloud Disk |  |
-| :---------: | :----------: | :----------: | :----------: | :----------: |
+| Model Name | Description |  | Quark Cloud Disk |  
+| :---------: | :----------: | :----------: | :----------: |
 | patient1.ckpt | IRControlNet trained on filtered laion2b-en  | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
 | patient2.ckpt | IRControlNet trained on ImageNet-1k | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
 | patient3.ckpt | IRControlNet trained on FFHQ | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
-| codeformer_swinir.ckpt | SwinIR trained on ImageNet-1k | [download](https://pan.baidu.com/s/176fARg2ySYtDgX2vQOeRbA?pwd=vfif)<br>(pwd: vfif) |
+| classification.pt | SwinIR trained on ImageNet-1k | [download](https://pan.baidu.com/s/176fARg2ySYtDgX2vQOeRbA?pwd=vfif)<br>(pwd: vfif) |
 
-
-## 1. Introduction
-
-### 1.1. Task Descriptions
-
-<p align="center">
-    <img src="http://.png"/> <br />
-    <em> 
-    Figure 1.[1].
-    </em>
-</p>
-
-> [1] ****数据集名称*** segmentation dataset, link: https://***********/, accessed: 2024-06-16.
-
-## 2. Proposed Methods
-
-- **Preview:**
-  
-  *********
-  *********
-  *********
-
-- **Dataset Preparation:**
-
-    Firstly, you should download the testing/training set  [**数据集链接**](**路径**), 
-    and put it into `./Dataset/` repository.
-  
-- **Download the Pretrained Model:**
-  
-    **模型名** Pre-trained Models used in our paper (
-    [**模型**](**路径**)
-    ), 
-    and put them into `./所在路径/` repository.
-
-- **Configuring your environment (Prerequisites):**
-    
-    + Creating a virtual environment in terminal: `conda create -n name python=3.9`.
-    
-    + Installing necessary packages: `pip install -r requirements.txt`.
-
-### 2.1. Overview
-
-*********
-*********
-*********
 
 ### 2.2. Usage
 
