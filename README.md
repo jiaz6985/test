@@ -19,12 +19,12 @@
 
 ```shell
 # clone this repo
-git clone https://github.com/XPixelGroup/DiffBIR.git
-cd DiffBIR
+git clone https://github.com/jiaz6985/seg.git
+cd AMM-Seg
 
 # create environment
-conda create -n diffbir python=3.10
-conda activate diffbir
+conda create -n AMM-Seg python=3.10
+conda activate AMM-Seg
 pip install -r requirements.txt
 ```
 
