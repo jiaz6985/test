@@ -28,7 +28,7 @@ conda activate diffbir
 pip install -r requirements.txt
 ```
 
-## <a name="segmentation"></a>ℹ️:Segmentation Dataset
+## <a name="segmentation"></a>ℹ️Segmentation Dataset
 
 | Dataset Name | Quark Cloud Disk |
 | :---------: | :----------: |
@@ -42,15 +42,14 @@ pip install -r requirements.txt
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
 
-| Model Name | Description |  | Quark Cloud Disk |  
-| :---------: | :----------: | :----------: | :----------: |
+| Model Name | Description |  Quark Cloud Disk |  
+| :---------: | :----------: | :----------: |
 | patient1.ckpt | IRControlNet trained on filtered laion2b-en  | [download](https://pan.baidu.com/s/1uTAFl13xgGAzrnznAApyng?pwd=xiu3)<br>(pwd: xiu3) |
 | patient2.ckpt | IRControlNet trained on ImageNet-1k | [download](https://pan.baidu.com/s/1PhXHAQSTOUX4Gy3MOc2t2Q?pwd=79n9)<br>(pwd: 79n9) |
 | patient3.ckpt | IRControlNet trained on FFHQ | [download](https://pan.baidu.com/s/1kvM_SB1VbXjbipLxdzlI3Q?pwd=n7dx)<br>(pwd: n7dx) |
 | classification.pt | SwinIR trained on ImageNet-1k | [download](https://pan.baidu.com/s/176fARg2ySYtDgX2vQOeRbA?pwd=vfif)<br>(pwd: vfif) |
 
-
-### 2.2. Usage
+## <a name="Usage"></a>📑:Usage
 
 1. Train
 
@@ -72,18 +71,16 @@ pip install -r requirements.txt
           pred_dir = output_path		                                #eg."E:/scripts/pred_dir"
     
     - All the predictions will be saved in `./分割结果路径`
-   
-  ## 3. GUI
-  
-  ### 3.1. Introduction
 
-  The system is divided into four main sections: classification assessment, image segmentation, precise calculation and color change. 
+## <a name="Usage"></a>📽️:GUI
 
-  ### 3.2. Usage
+  The system is divided into four main sections: classification assessment, image segmentation, precise calculation. 
 
-- just run `segmentation_gui.py`.
+1.Usage
 
-- The interface is shown below.
+- First, open an Administrator Command Prompt and use the `cd` command to navigate to the `AMM-Seg/vite` directory of your project. Then, type `npm start` to run the project. This will open a browser and navigate to [http://localhost:3000/free](http://localhost:3000/free).
+
+- Next, open a new command prompt and use the `cd` command to navigate to the `AMM-Seg/src/scripts/` directory. Then, enter `python app.py`. This will start the backend server running locally at `127.0.0.1:5000`.
   
 <p align="center">
     <img src="Classify.png"/> <br />
