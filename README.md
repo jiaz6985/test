@@ -27,15 +27,7 @@ conda create -n diffbir python=3.10
 conda activate diffbir
 pip install -r requirements.txt
 ```
-
-### 0.1. :fire: NEWS :fire:
-- [2024/06/16] Create repository.
-  
-### 0.2. Table of Contents
-
-*********
-*********
-*********
+## <a name="pretrained_models"></a>:dna:Pretrained Models
 
 ## 1. Introduction
 
