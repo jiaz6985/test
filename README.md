@@ -8,7 +8,7 @@
 - [Update](#update)
 - [Installation](#installation)
 - [Pretrained Models](#pretrained_models)
-- [Inference](#inference)
+- [Segmentation Dataset](#segmentation dataset)
 - [Train](#train)
 
 ## <a name="update"></a>:new:Update
@@ -27,6 +27,9 @@ conda create -n diffbir python=3.10
 conda activate diffbir
 pip install -r requirements.txt
 ```
+
+## <a name="segmentation dataset"></a>:data:Segmentation Dataset
+
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
 
 | Model Name | Description |  | BaiduNetdisk |  |
