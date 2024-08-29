@@ -8,7 +8,7 @@
 - [Update](#update)
 - [Installation](#installation)
 - [Pretrained Models](#pretrained_models)
-- [Segmentation Dataset](#segmentation dataset)
+- [Segmentation Dataset](#segmentation)
 - [Train](#train)
 
 ## <a name="update"></a>:new:Update
@@ -28,7 +28,7 @@ conda activate diffbir
 pip install -r requirements.txt
 ```
 
-## <a name="segmentation dataset"></a>:data:Segmentation Dataset
+## <a name="segmentation"></a>:data:Segmentation Dataset
 
 ## <a name="pretrained_models"></a>:dna:Pretrained Models
 
